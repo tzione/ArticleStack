@@ -1,0 +1,48 @@
+.action-panel-wrapper {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background: #e5eef5;
+  .form-outer-wrapper {
+    margin-left: auto;
+  }
+  .manager-buttons-wrapper{
+    min-width:355px;
+  }
+  .categories-wrapper {
+    .category {
+      margin: 2px;
+      border-radius: 4px;
+      background: #e6b628;
+      outline: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+      &.all{
+        background: #3666a5;
+      }
+    }
+    display: flex;
+    ul {
+      list-style: none;
+    }
+
+    li {
+      float: left;
+    }
+  }
+  .action-buttun {
+    padding: 5px 15px;
+    margin: 0 20px;
+    background: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    &.active {
+      opacity: 0.3;
+      cursor: default;
+    }
+  }
+}

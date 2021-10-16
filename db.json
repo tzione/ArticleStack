@@ -1,0 +1,508 @@
+{
+  "stack": [
+    {
+      "id": "87ca9f12-486d-4c38-822d-0402bd6b0e95",
+      "url": "https://material.angular.io/",
+      "caption": "Angular Material",
+      "tags": [
+        "angular",
+        "design"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "6bf60bab-3cea-48be-877e-af26cf8f6036",
+      "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261",
+      "caption": "Master the JavaScript Interview: What is a Promise?",
+      "tags": [
+        "javascript"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "f4923373-96e4-48ba-baa3-d136403b86d9",
+      "url": "https://eloquentjavascript.net/",
+      "caption": "Eloquent JavaScript 3rd edition",
+      "tags": [
+        "javascript"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "60b056fc-2dc8-4bad-9e46-5b46e17280eb",
+      "url": "https://www.youtube.com/watch?v=v8e7VPATs1k&list=PLTgRMOcmRb3Mkd4ZrlQy2RMbdxsI8aKFJ",
+      "caption": "Learning JavaScript Data Structures and Algorithms: The Course Overview | packtpub.com",
+      "tags": [
+        "javascript"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "6c785008-a7b2-40ae-bd89-965b2775e5b4",
+      "url": "https://yourbasic.org/",
+      "caption": "Algorithms to Go",
+      "tags": [
+        "data",
+        "algorithem"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "fd07a9f6-134c-4935-b7f4-4e407e2d1e8f",
+      "url": "https://www.youtube.com/watch?v=bum_19loj9A",
+      "caption": "Data Structures & Algorithms #1 - What Are Data Structures?",
+      "tags": [
+        "algorithems",
+        "data",
+        "youtube"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "1f4f4910-efce-4ac5-98f9-8b0e92eacdff",
+      "url": "https://www.youtube.com/watch?v=Bv_5Zv5c-Ts",
+      "caption": "JavaScript: Understanding the Weird Parts - The First 3.5 Hours",
+      "tags": [
+        "javascript",
+        "youtube"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "bedefa65-eb7e-41b9-864a-63e0698e9f50",
+      "url": "https://www.youtube.com/watch?v=MURPf_6r8z4",
+      "caption": "Olive Wagyu in Japan - The rarest Steak in the World",
+      "tags": [
+        "food",
+        "youtube"
+      ],
+      "category": "Food",
+      "color": "#c2ba1b"
+    },
+    {
+      "id": "2267999b-3542-4ef3-b964-b8113efcf2cc",
+      "url": "https://www.youtube.com/watch?v=4KtoqTNmEf8",
+      "caption": "Angular + NgRx, Exploring the Essentials of NgRx!",
+      "tags": [
+        "angular",
+        "ngrx",
+        "youtube"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "8ad751c2-8ac2-420e-9bbb-5e7c2bbd55fc",
+      "url": "https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230",
+      "caption": "Useful Javascript Array and Object Methods",
+      "tags": [
+        "javascript",
+        "array",
+        "object"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "7b2c6e91-1ef2-498f-9d41-0f739c8fe50b",
+      "url": "https://developer.chrome.com/extensions/getstarted",
+      "caption": "Getting Started Tutorial",
+      "tags": [
+        "Chrome",
+        "Extension"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "374ac356-a325-45ea-89be-81ae363e0a68",
+      "url": "https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/",
+      "caption": "How to Create a Chrome Extension in 10 Minutes Flat",
+      "tags": [
+        "Chrome",
+        "Extension"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "ddb633d1-0033-4973-a2ae-474f61e58ec5",
+      "url": "https://www.freecodecamp.org/news/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153/",
+      "caption": "How to Create and Publish a Chrome Extension in 20 minutes",
+      "tags": [
+        "Chrome",
+        "extensions"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "e8839473-bfb8-4736-9ef5-a6137f41fd1c",
+      "url": "https://www.youtube.com/watch?v=uh84Asy2W4s",
+      "caption": "How To Create A Google Chrome Extension: A Step-by-Step Tutorial",
+      "tags": [
+        "chrome",
+        "extentions",
+        "youtube"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "4b68d388-3bb8-41be-b34e-fda0289d4b1a",
+      "url": "https://www.youtube.com/watch?v=cgVVZMfLjEI",
+      "caption": "4 Programming Paradigms In 40 Minutes",
+      "tags": [
+        "programing",
+        "video"
+      ],
+      "category": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "efd246af-4f59-4df7-895d-9860420c5974",
+      "url": "https://www.youtube.com/watch?v=W0J36vlwRB8",
+      "caption": "How to Make Chinese Sweet and Sour Pork Ribs",
+      "tags": [
+        "ribs",
+        "video"
+      ],
+      "category": "Food",
+      "color": "#c2ba1b"
+    },
+    {
+      "id": "27ef8790-f768-47a8-9364-eeee66040075",
+      "url": "https://www.youtube.com/watch?v=Rb0UmrCXxVA&t=5408s",
+      "caption": "The Best of Mozart",
+      "tags": [
+        "mozart",
+        "classic"
+      ],
+      "category": "Music",
+      "color": "#366d6d"
+    },
+    {
+      "id": "0924a923-7b27-423f-9a49-1d4a0031222c",
+      "url": "https://www.youtube.com/watch?v=teojy6WjlKA",
+      "caption": "TCHAIKOVSKY - THE GREATEST HITS",
+      "tags": [
+        "classic"
+      ],
+      "category": "Music",
+      "color": "#366d6d"
+    },
+    {
+      "id": "eadbbdab-35d2-4d57-bed5-7ce5c8a0eae2",
+      "url": "https://www.youtube.com/watch?v=4z2DtNW79sQ&list=PLDAD19BD0DCB12277&index=2",
+      "caption": "Bruce Springsteen - Streets of Philadelphia (Official Music Video)",
+      "tags": [
+        "bruce",
+        "rock"
+      ],
+      "category": "Music",
+      "color": "#366d6d"
+    },
+    {
+      "id": "228e5f37-46ee-47fa-b165-98af8a541d2d",
+      "url": "https://www.youtube.com/watch?v=BumgayeUC08",
+      "caption": "Angular Testing Quick Start",
+      "tags": [
+        "testing",
+        "angular",
+        "video"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "085d924a-3f10-4f04-8690-f85641ef5db3",
+      "url": "https://www.youtube.com/watch?v=Yod3tBt0beM",
+      "caption": "Unit Testing with Angular",
+      "tags": [
+        "angular",
+        "testing",
+        "video"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "7b8c7b6f-b43a-4347-9440-acc3e52bf3cb",
+      "url": "https://www.youtube.com/watch?v=-NEIfsnEGQY",
+      "caption": "Angular - Common Questions (and Answers!)",
+      "tags": [
+        "angular",
+        "video"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "f8a78539-c540-4654-869e-72d07c2c6406",
+      "url": "https://www.youtube.com/watch?v=PW8tr4j1ZWE",
+      "caption": "Beginner Photography MISTAKES - What to avoid to take better photos",
+      "tags": [
+        "video"
+      ],
+      "category": "Photography",
+      "color": "#d0230b"
+    },
+    {
+      "id": "40b4bd82-c999-4798-9469-52cdbece360f",
+      "url": "https://www.youtube.com/watch?v=4KW8YZtZQSA",
+      "caption": "Brian Regan - Stand Up Comedy Full HD 2017",
+      "tags": [
+        "video",
+        ""
+      ],
+      "category": "Comedy",
+      "color": "#02badb"
+    },
+    {
+      "id": "c4e867be-06f0-4407-84e5-41b264be2404",
+      "url": "https://www.youtube.com/watch?v=5nxD4PY39xw",
+      "caption": "BILL BURR: WHY DO I DO THIS | STAND UP SPECIAL",
+      "tags": [
+        "bill",
+        "video"
+      ],
+      "category": "Comedy",
+      "color": "#02badb"
+    },
+    {
+      "id": "242b10fe-4cad-49ce-8f79-a7baa557af12",
+      "url": "https://www.youtube.com/watch?v=1fM-yfymMe4",
+      "caption": "Doug Stanhope - No Refunds 2007 SUB ITA completo.mp4",
+      "tags": [
+        "video"
+      ],
+      "category": "Comedy",
+      "color": "#02badb"
+    },
+    {
+      "id": "5d371850-d85d-497f-a0ca-b525f61577b0",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "caption": "A Complete Guide to Flexbox",
+      "tags": [
+        "css",
+        "tricks"
+      ],
+      "category": "css",
+      "color": "#768316"
+    },
+    {
+      "id": "41685ac2-302e-4911-8c7d-e63ca63b200b",
+      "url": "https://www.youtube.com/watch?v=duzghEwdtJU",
+      "caption": "10 FUNNIEST Jokes on Women",
+      "tags": [
+        "video",
+        ""
+      ],
+      "category": "Comedy",
+      "color": "#02badb"
+    },
+    {
+      "id": "dc8c7497-5924-4be1-a105-5ac0f0df4275",
+      "url": "https://www.youtube.com/watch?v=gUssOYblBpM",
+      "caption": "Angular / Unit Testing / Mocks & Spies",
+      "tags": [
+        "angular",
+        "testing",
+        "video"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "01667d67-18e1-462f-a91e-820c22277495",
+      "url": "https://www.tuesdaysskateshop.co.uk/products/vans-sk8-hi-pro-sour-shoe-marshmallow-ruby-wine",
+      "caption": "vans x sour",
+      "tags": [
+        "vans",
+        "shoes",
+        "yarden"
+      ],
+      "category": "Fashion",
+      "color": "#6d6d6d"
+    },
+    {
+      "id": "a03d9747-3eca-45d7-9710-2b3eb425a7af",
+      "url": "https://dev.to/mustapha/angular-unit-testing-101-with-examples-6mc",
+      "caption": "Angular unit testing 101 (with examples)",
+      "tags": [
+        "angular",
+        "testing"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "57f2c3f0-0a7e-4346-9b49-3d843d8a08d0",
+      "url": "https://blog.logrocket.com/angular-unit-testing/",
+      "caption": "how to write (simple) unit tests for your Angular modeling blocks (service, component, async task, etc.).",
+      "tags": [
+        "angular",
+        "testing"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "329dab4b-9eca-4dac-873b-60df662d3083",
+      "url": "https://medium.com/frontend-fun/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4",
+      "caption": "Angular: Unit Testing Jasmine, Karma (step by step)",
+      "tags": [
+        "angular",
+        "testing"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "b7351e59-843d-41c1-8b25-ed9309fe2cd2",
+      "url": "https://www.youtube.com/watch?v=7Qd0d4ViiDk&list=PLOa5YIicjJ-XA6uwvBtOLltsVvBHP6g3v",
+      "caption": " Angular Testing - Step-by-Step Test Implementation (Jasmine Spec)",
+      "tags": [
+        "angular",
+        "testing"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "9ecaee91-9c1b-4603-a859-9bfa1b15a1a7",
+      "url": "https://www.youtube.com/watch?v=va5mY68yo4A&list=PL8jcXf-CLpxolmjV5_taFP0c5LyCveDF1",
+      "caption": "Advanced Web Apps 2019 | Unit Testing in Angular | S3P1 | Introduction",
+      "tags": [
+        "angular",
+        "testing"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "e4f0c4d4-1c5b-4e1f-a9d8-54ab3c2f6a21",
+      "url": "https://www.youtube.com/watch?v=al0LNgH3I4A",
+      "caption": "Ultimate NGRX: Optimizing Datastructures with Entities",
+      "tags": [
+        "angular",
+        "ngrx",
+        "entitis"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "420630e4-7ee1-47c1-9e70-89a9f315e33f",
+      "url": "https://www.youtube.com/watch?v=FE71r5WJWSQ",
+      "caption": "Ultimate NGRX: Store Selectors",
+      "tags": [
+        "angular",
+        "ngrx",
+        "selectors"
+      ],
+      "category": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "ea13310a-d483-44c0-b4ba-ca2f0d54fd74",
+      "url": "https://www.globes.co.il/news/home.aspx?fid=8386",
+      "caption": "מדריכים פיננסיים",
+      "tags": [
+        "globs"
+      ],
+      "category": "finnence",
+      "color": "#ff80ff"
+    },
+    {
+      "id": "ea6d6651-4528-4a85-9e98-37367ad206ba",
+      "url": "https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0",
+      "caption": "Explaining Value vs. Reference in Javascript",
+      "tags": [
+        "javascript,reference,value"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "0d545072-2251-4a60-bca3-c73261ebf0e5",
+      "url": "https://www.youtube.com/watch?v=fD0t_DKREbE",
+      "caption": "avaScript Value vs Reference Types",
+      "tags": [
+        "javascript,reference,value,video,mosh"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "96d32c83-3c9d-4a79-8f62-20fe86b4c844",
+      "url": "https://www.youtube.com/watch?v=9ooYYRLdg_g",
+      "caption": "avaScript - Reference vs Primitive Values/ Types",
+      "tags": [
+        "avascript,reference,value,video",
+        "max"
+      ],
+      "category": "javascript",
+      "color": "#800080"
+    }
+  ],
+  "categories": [
+    {
+      "id": "14d85dfb-8455-4041-990c-b03d2e16b2d5",
+      "name": "Food",
+      "color": "#c2ba1b"
+    },
+    {
+      "id": "a577877e-546b-4497-b365-8b1a99eb212a",
+      "name": "Music",
+      "color": "#366d6d"
+    },
+    {
+      "id": "7bf03a6b-a596-4e9b-920e-1bed1fe0ed3c",
+      "name": "Angular",
+      "color": "#23632f"
+    },
+    {
+      "id": "12e76df3-b431-4eed-95af-c41a76a7aa6c",
+      "name": "Photography",
+      "color": "#d0230b"
+    },
+    {
+      "id": "e3a97d6e-0ecf-4590-8713-e34ad67bbc92",
+      "name": "Comedy",
+      "color": "#02badb"
+    },
+    {
+      "id": "1081c5cb-7dd6-4435-a9e4-5835eb9cde5f",
+      "name": "javascript",
+      "color": "#800080"
+    },
+    {
+      "id": "7d16fc57-6035-4a4e-bd70-2905d43aa8ae",
+      "name": "Fashion",
+      "color": "#6d6d6d"
+    },
+    {
+      "id": "b16d8f8f-b771-45d7-a533-7288fb7ea7c7",
+      "name": "Programing",
+      "color": "#cc8a0f"
+    },
+    {
+      "id": "00ebe783-4e9b-4573-8efd-18a7985f911d",
+      "name": "finnence",
+      "color": "#ff80ff"
+    },
+    {
+      "id": "4c977587-a176-48fd-b990-ede612c7d42f",
+      "name": "css",
+      "color": "#768316"
+    }
+  ]
+}

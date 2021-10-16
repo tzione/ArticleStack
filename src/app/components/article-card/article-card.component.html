@@ -1,0 +1,38 @@
+<div class="outer-wrapper">
+  <search-box (outputSearchTag)="getSearchVal($event)"></search-box>
+  <div *ngFor="let item of stack$ | async">
+    <div
+      class="card-container"
+      [ngStyle]="{'border-color': item.color}"
+      id="searchRes"
+      *ngIf="(item.tags.includes(searchTag) || searchTag === null) && (item.category === category || category === 'all')"
+    >
+      <div class="caption" [ngStyle]="{'background-color': item.color + 20,'border-color': color + 60}">
+        <span [ngStyle]="{'color': '#333333'}">{{ item.caption }}</span>
+      </div>
+      <div class="category" *ngIf='item.category'>
+        <span>Category:</span> {{item.category}}
+      </div>
+      <div class="tags">
+      <span>Tags:</span>  {{ item.tags }}
+      </div>
+      <mat-icon class='icon' *ngIf="item.tags.includes('youtube') || item.tags.includes('video')">videocam</mat-icon>
+      
+      <div class="thumb-footer">
+        <div class="link">
+          <a href="{{item.url}}" target="_blank">Go to article</a>
+        </div>
+        <button (click)="deleteArticle(item.id)">
+          <mat-icon [ngStyle]="{'color': item.color}">delete</mat-icon>
+        </button>
+        <button
+          (click)="
+            openArticleManager(item.id, item.url, item.caption, item.tags, item.category)
+          "
+        >
+          <mat-icon [ngStyle]="{'color': item.color}">edit</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

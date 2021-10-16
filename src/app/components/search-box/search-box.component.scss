@@ -1,0 +1,25 @@
+.search-box{
+    display:flex;
+    padding:20px 0;
+    align-items:center;
+   
+    label{
+margin-right:10px;
+    }
+}
+.search-input{
+    border-width: 1px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    outline: none;
+    padding: 10px;
+}
+.search-btn{
+    
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+form{
+    align-items:stretch;
+    display:flex;
+}

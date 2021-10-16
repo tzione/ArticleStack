@@ -1,0 +1,18 @@
+<div class="search-box">
+ <label>You can search by tags or view all</label>   
+<form #f="ngForm" (ngSubmit)="getSearch(f)">
+    
+<input 
+class="search-input"
+placeholder="Show all"
+ type="search"
+ name="search"
+ ngModel
+#input="ngModel"
+>
+
+
+<button class="search-btn" mat-stroked-button mat-button-base type="submit">Search</button>
+
+</form>
+</div>

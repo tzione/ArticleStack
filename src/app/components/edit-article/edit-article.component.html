@@ -1,0 +1,50 @@
+<div >
+<form class ="form-wrapper"
+  [formGroup]="editForm"
+  (ngSubmit)="editArticle (
+      itemId,
+      itemUrl,
+      itemCaption,
+      itemTags,
+      itemCategory,
+      caption.value,
+      tags.value,
+      category.value
+    )
+  "
+>
+ <mat-form-field>
+    <input
+      matInput
+      type="text"
+      id="itemCaption"
+      formControlName="itemCaption"
+      placeholder="Enter caption"
+      #caption
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      type="text"
+      placeholder="Enter Tags"
+      name="itemTags"
+      #tags
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Select category</mat-label>
+    <mat-select #category >
+      <mat-option name="itemCategory"
+       *ngFor="let item of categories$ | async"
+       [value]="item.name"
+       >
+        {{item.name}}
+      </mat-option
+      >
+    </mat-select>
+  </mat-form-field>
+  <button mat-stroked-button mat-button-base type="submit">Apply</button>
+</form>
+
+</div>

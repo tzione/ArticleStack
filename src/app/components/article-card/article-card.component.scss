@@ -1,0 +1,72 @@
+.outer-wrapper{
+    &::after{
+        content:"";
+        clear: both;
+        display: block;
+    }
+}
+.thumb-footer{
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+    right:5px;
+    text-align: right;
+    .material-icons{
+        font-size: 18px;
+    }
+    .mat-icon{
+        height:20px;
+        width:20px;
+        color:rgb(41, 96, 148);
+    }
+    button{
+        cursor: pointer;
+        margin-right:5px;
+    }
+}
+.icon{
+    color: #555;
+    font-size: 1.2em;
+}
+.caption{
+    font-weight: 500;
+    padding:5px;
+    height:60px;
+    color: rgb(24, 54, 82);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+   border-bottom: 1px solid ;
+}
+.tags{
+    font-size: 0.8em;
+    span{
+        font-weight: 600;
+    }
+}
+.category{
+    font-size: 0.9em;
+    span{
+        font-weight: 600;
+    }
+}
+.card-container{
+    position: relative;
+    float:left;
+    margin:5px;
+    border-radius:4px;
+    padding:5px;
+    width:300px;
+    height:150px;
+    border:1px solid;
+    color: #333;
+    box-shadow: 1px 1px 4px 1px #afafaf;
+    .link a{
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: none;
+        color: #07a9e9
+    }
+    .link{
+        float: left;
+    }
+}

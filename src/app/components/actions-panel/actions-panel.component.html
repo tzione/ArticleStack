@@ -1,0 +1,28 @@
+<div class="action-panel-wrapper">
+
+  <div class="manager-buttons-wrapper" *ngIf = "_router.url == '/stack'">
+    <button 
+      class="action-buttun"
+      mat-stroked-button
+      (click)="openStackManager()"
+    >
+      Stack manager
+    </button>
+    <button 
+      class="action-buttun"
+      mat-stroked-button
+      (click)="openCreateCategory()"
+    >
+      Category manager
+    </button>
+    
+  </div>
+  <div class="categories-wrapper" *ngIf = "_router.url == '/stack'">
+    <ul>
+      <li><button class="category all" (click)='getCategory("all", "#3666a5")'>All</button></li>
+      <li *ngFor="let item of categories$ | async">
+          <button [ngStyle]="{'background-color': item.color}" class="category" (click)='getCategory(item.name, item.color)'>{{item.name}}</button>
+      </li>
+    </ul>
+  </div>
+ </div>

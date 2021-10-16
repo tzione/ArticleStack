@@ -1,0 +1,17 @@
+.nav{
+    margin-left:50px;
+    border-left: 1px solid #ccc;
+    display: flex;
+    .nav-item{
+        font-weight: normal;
+        align-items: center;
+        padding:0 20px;
+        a{
+            color:#ccc;
+            text-decoration: none;
+            &:hover{
+                color:#fafafa;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+
+<h3>Manage your categories<button class='close-dialog' mat-icon-button (click)="closeDialog()">
+  <mat-icon>close</mat-icon>
+</button></h3>
+
+<form (ngSubmit)="addCategory(cat.value, color.value)" class="form-wrapper">
+  <div class="outer-wrapper">
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        placeholder="Enter Category"
+        name="itemTags"
+        #cat
+      />
+    </mat-form-field>
+    <div>
+      pick a color to represent your category
+      <input class="color-pic" #color type="color" value="#3666a5" />
+    </div>
+
+    <div class="categories-wrapper">
+      <ul>
+        <li *ngFor="let item of categories$ | async; let i = index">
+          <div>
+            <span
+              [ngStyle]="{ 'background-color': item.color }"
+              class="category"
+              >{{ item.name }}</span
+            ><span class="delete" (click)="deleteCategory(item.id)">x</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <button mat-stroked-button mat-button-base type="submit">Add Category</button>
+  </div>
+</form>
+

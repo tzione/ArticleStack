@@ -1,0 +1,50 @@
+
+<h3>Stack manager<button class='close-dialog' mat-icon-button (click)="closeDialog()">
+  <mat-icon>close</mat-icon>
+</button></h3>
+<form (ngSubmit)="addArticle(tag.value, category.value)" class ="form-wrapper">
+  <mat-form-field>
+    <input
+    matInput
+      type="text"
+      placeholder="Enter URL"
+      name="itemUrl"
+      [(ngModel)]="newArticle.url"
+      required
+    >
+  </mat-form-field>
+  <mat-form-field>
+    <input
+    matInput
+      type="text"
+      placeholder="Enter caption"
+      name="itemCaption"
+      [(ngModel)]="newArticle.caption"
+    >
+  </mat-form-field>
+  <mat-form-field>
+    <input
+    matInput
+    type="text"
+    placeholder="Enter Tags"
+    name="itemTags"
+    #tag
+    >
+  </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select category</mat-label>
+      <mat-select #category name="itemCategory">
+        <mat-option
+        *ngFor="let item of categories$ | async"
+         [value]="item.name"
+         >
+          {{item.name}}
+        </mat-option
+        >
+      </mat-select>
+    </mat-form-field>
+
+    <button mat-stroked-button mat-button-base type="submit">Add Article</button>
+  </form>
+ 
+  
