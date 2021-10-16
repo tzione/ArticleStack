@@ -1,6 +1,5 @@
 import * as ArticleActions from '../actions/stack.action';
 import { Article } from '../models/article.model';
-
 export interface StackState {
   list: Article[];
   loading: boolean;
